@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D1883F971B2F59BF00275A2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D1883F961B2F59BF00275A2D /* main.m */; };
+		D1A71D011B2F5C5100046402 /* Dikdortgen.m in Sources */ = {isa = PBXBuildFile; fileRef = D1A71D001B2F5C5100046402 /* Dikdortgen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D1883F931B2F59BE00275A2D /* Application Practices */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Application Practices"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1883F961B2F59BF00275A2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D1A71D001B2F5C5100046402 /* Dikdortgen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dikdortgen.m; sourceTree = "<group>"; };
+		D1E656E31B2F6BA800C4F69C /* NSObject+Daire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Daire.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		D1883F951B2F59BE00275A2D /* Application Practices */ = {
 			isa = PBXGroup;
 			children = (
+				D1E656E31B2F6BA800C4F69C /* NSObject+Daire.h */,
 				D1883F961B2F59BF00275A2D /* main.m */,
+				D1A71D001B2F5C5100046402 /* Dikdortgen.m */,
 			);
 			path = "Application Practices";
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1A71D011B2F5C5100046402 /* Dikdortgen.m in Sources */,
 				D1883F971B2F59BF00275A2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +211,7 @@
 		D1883F9B1B2F59BF00275A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +219,7 @@
 		D1883F9C1B2F59BF00275A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -235,6 +243,7 @@
 				D1883F9C1B2F59BF00275A2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
